@@ -1,16 +1,17 @@
 import styles from "./CandidateCard.module.css";
 
-function CandidateCard({}) {
+function CandidateCard({name,avatar,title,salary,company_name}) {
   return (
     <div data-testid="candidate-container" className={styles.container}>
-      <img alt="logo" width="100px" height="100px" />
+      <img src={avatar} alt="logo" width="100px" height="100px" />
       <div>
-        <div>Name:</div>
-        <div>Title & Company Name</div>
+        <div>Name:{name}</div>
+        <div>{title} & {company_name}</div>
       </div>
-      <div>$ Salary</div>
+      <div>$ {salary}</div>
     </div>
   );
 }
 
 export default CandidateCard;
+
