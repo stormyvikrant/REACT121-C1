@@ -1,0 +1,17 @@
+.button {
+  padding: 1rem;
+  border: 0px;
+  margin-right: 0.5rem;
+  background: tomato;
+  border-radius: 0.25rem;
+}
+
+.button:hover {
+  cursor: pointer;
+  background: rebeccapurple;
+  color: white;
+}
+
+.button:disabled {
+  cursor: not-allowed;
+}

@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  border-radius: 0.5rem;
+  gap: 2rem;
+  padding: 2rem;
+  margin: 0.5rem;
+  background-color: tomato;
+  justify-content: space-between;
+}
+
+.container:hover {
+  box-shadow: 2px 2px #888888;
+}
